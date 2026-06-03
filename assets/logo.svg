@@ -10,21 +10,11 @@
     <clipPath id="avatar-clip">
       <circle cx="256" cy="256" r="84" />
     </clipPath>
-    <filter
-      id="soft-shadow"
-      x="-18%"
-      y="-18%"
-      width="136%"
-      height="145%"
-      color-interpolation-filters="sRGB"
-    >
-      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.24" />
-    </filter>
   </defs>
 
   <path
     d="M256 0C114.615 0 0 114.615 0 256S114.615 512 256 512S512 397.385 512 256S397.385 0 256 0ZM256 336.842C211.352 336.842 175.158 300.648 175.158 256S211.352 175.158 256 175.158S336.842 211.352 336.842 256S300.648 336.842 256 336.842Z"
-    fill="#d8d8da"
+    fill="#ffffff"
   />
   <path
     d="M282.947 188.632H503.023C485.09 122.726 441.507 67.394 383.64 34.044L229.053 188.632H282.947Z"
@@ -69,8 +59,8 @@
   />
   <polygon points="282.947 323.368 256 323.368 256 350.316" fill="#f6e27d" />
 
-  <circle cx="256" cy="256" r="88" fill="#1e1e2e" stroke="#d8d8da" stroke-width="10" />
-  <g clip-path="url(#avatar-clip)" filter="url(#soft-shadow)">
+  <circle cx="256" cy="256" r="88" fill="#ffffff" stroke="#ffffff" stroke-width="10" />
+  <g clip-path="url(#avatar-clip)">
     <svg
       x="172"
       y="172"
@@ -199,8 +189,4 @@
       <path class="cls-8" d="M68,88H58a1.84,1.84,0,0,1-1.73-2H69.77A1.84,1.84,0,0,1,68,88Z" />
     </svg>
   </g>
-  <desc id="desc-source">
-    Centered avatar source: avatar-child-girl-svgrepo-com.svg; inner circles recolored to match the
-    outer palette greens.
-  </desc>
 </svg>
