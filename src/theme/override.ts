@@ -2,7 +2,7 @@ import { getTheme } from "./registry";
 import { clearThemeStyle, setThemeStyle } from "./style";
 import type { Theme } from "./contract";
 
-const themeOverrideStorageKey = "avas-colors-theme-override";
+const themeOverrideStorageKey = "avas-themes-override";
 
 export function getThemeOverrideId(): string | null {
   const themeId = window.localStorage.getItem(themeOverrideStorageKey);

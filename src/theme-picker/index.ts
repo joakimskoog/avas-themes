@@ -1,7 +1,7 @@
 import { injectCustomThemesIntoNativeThemeList } from "./nativeThemeList";
 
 const avanzaRouteLoadingEventName = "azaRouteLoadingEventService_RouteLoadingEvent";
-const debugLogPrefix = "[Avas Colors]";
+const debugLogPrefix = "[Avas Themes]";
 const themeSettingsPath = "/min-profil/installningar/sajtinstallningar.html/tema";
 
 function isThemeSettingsPath(path: string): boolean {

@@ -1,7 +1,7 @@
 import type { Theme, ThemeVariable } from "./contract";
 import { themeVariables } from "./contract";
 
-const themeStyleElementId = "avas-colors-theme";
+const themeStyleElementId = "avas-themes-theme";
 
 const migrationAliases = {
   "--mint-color-migrate-from-surface-main-to-background-primary": "--mint-color-background-primary",
@@ -105,7 +105,7 @@ function getThemeCss(theme: Theme): string {
   ].join("\n");
 
   return [
-    `/* Avas Colors: ${theme.name} */`,
+    `/* Avas Themes: ${theme.name} */`,
     ":root,",
     "body,",
     "body[data-theme],",

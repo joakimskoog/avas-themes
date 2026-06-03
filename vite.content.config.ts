@@ -13,7 +13,7 @@ export default defineConfig({
     lib: {
       entry: resolve(rootDir, "src/content.ts"),
       formats: ["iife"],
-      name: "AvasColorsContent",
+      name: "AvasThemesContent",
       fileName: () => "assets/content.js",
     },
   },

@@ -3,9 +3,9 @@ import { clearThemeOverride, getThemeOverrideId, setThemeOverride } from "../the
 import type { Theme } from "../theme/contract";
 import { waitForElement } from "./waitForElement";
 
-const customThemeValuePrefix = "avas-colors:";
-const injectedThemeDatasetKey = "avasColorsThemeId";
-const listListenerDatasetKey = "avasColorsListenerInstalled";
+const customThemeValuePrefix = "avas-themes:";
+const injectedThemeDatasetKey = "avasThemesThemeId";
+const listListenerDatasetKey = "avasThemesListenerInstalled";
 
 const themeListSelector = "aza-settings-group ul[mintradiolist]";
 const themeListItemSelector = "li[mintradiolistitem]";
@@ -23,7 +23,7 @@ function setThemeFromInput(theme: Theme, input: HTMLInputElement): void {
 
 function createThemeItem(theme: Theme, templateItem: HTMLLIElement): HTMLLIElement {
   const item = templateItem.cloneNode(true) as HTMLLIElement;
-  const elementId = `avas-colors-${theme.id.replace(/[^a-z0-9_-]/gi, "-")}`;
+  const elementId = `avas-themes-${theme.id.replace(/[^a-z0-9_-]/gi, "-")}`;
   const label = item.querySelector<HTMLLabelElement>("label");
   const input = item.querySelector<HTMLInputElement>('input[type="radio"]');
   const title = item.querySelector<HTMLElement>(".mint-title-text");
@@ -79,7 +79,7 @@ function installThemeListListener(list: HTMLUListElement): void {
     const theme = getTheme(themeId);
 
     if (!theme) {
-      throw new Error(`Unknown Avas Colors theme "${themeId}".`);
+      throw new Error(`Unknown Avas Themes theme "${themeId}".`);
     }
 
     setThemeFromInput(theme, input);
