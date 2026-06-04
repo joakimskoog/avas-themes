@@ -16,6 +16,7 @@ const nord12 = "rgb(208, 135, 112)";
 const nord13 = "rgb(235, 203, 139)";
 const nord14 = "rgb(163, 190, 140)";
 const nord15 = "rgb(180, 142, 173)";
+const black = "rgb(0, 0, 0)";
 
 const withAlpha = (color: string, alpha: number): string =>
   color.replace("rgb(", "rgba(").replace(")", `, ${alpha})`);
@@ -38,6 +39,7 @@ const uncommon = nord15;
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const advanced = nord12;
 const selected = nord2;
+const shadow = withAlpha(black, 0.4);
 const transparentBackground = withAlpha(background, 0.001);
 
 const nordTheme: Theme = {
@@ -218,10 +220,10 @@ const nordTheme: Theme = {
     "--color-selectable-pressing-text": text,
     "--color-selectable-selected": selected,
     "--color-selectable-selected-text": text,
-    "--color-shadow-card": withAlpha(background, 0.35),
-    "--color-shadow-card-hover": withAlpha(background, 0.45),
-    "--color-shadow-main": withAlpha(background, 0.35),
-    "--color-shadow-overlay": withAlpha(background, 0.65),
+    "--color-shadow-card": shadow,
+    "--color-shadow-card-hover": withAlpha(black, 0.5),
+    "--color-shadow-main": shadow,
+    "--color-shadow-overlay": withAlpha(black, 0.65),
     "--color-skeleton-loading-card": elevated,
     "--color-skeleton-loading-element": elevated,
     "--color-skeleton-loading-highlight-element": elevatedHover,
@@ -316,7 +318,7 @@ const nordTheme: Theme = {
     "--mint-color-morningstar-active": warning,
     "--mint-color-morningstar-inactive": warning,
     "--mint-color-persistent-new-white": text,
-    "--mint-color-shadow-primary": withAlpha(background, 0.35),
+    "--mint-color-shadow-primary": shadow,
     "--mint-color-sheet-handle": elevated,
     "--mint-color-skeleton-content": elevated,
     "--mint-color-skeleton-highlight": elevatedHover,
