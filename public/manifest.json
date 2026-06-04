@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Avas Themes",
-  "description": "An unofficial browser extension that adds custom color themes to Avanza.",
+  "name": "Ava's Themes",
+  "description": "An unofficial browser extension that adds beautiful, community-loved themes to Avanza.",
   "version": "0.1.0",
   "icons": {
     "16": "icons/icon-16.png",
@@ -11,7 +11,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://avanza.se/*", "https://*.avanza.se/*"],
+      "matches": ["https://www.avanza.se/*"],
       "js": ["assets/content.js"],
       "run_at": "document_start"
     }
