@@ -1,7 +1,7 @@
 name: Suggest a theme
 description: Suggest a new theme for Ava's Themes
 title: "[Theme request]: "
-labels: ["theme request"]
+labels: ["theme-request"]
 body:
   - type: input
     id: theme-name
