@@ -1,4 +1,4 @@
-import { compileCatppuccinTheme, type CatppuccinPalette } from "./_compile";
+import { compileCatppuccinTheme, type CatppuccinPalette } from "./_helpers/catppuccin";
 
 const macchiatoPalette: CatppuccinPalette = {
   rosewater: "rgb(244, 219, 214)",

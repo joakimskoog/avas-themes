@@ -1,4 +1,4 @@
-import { compileCatppuccinTheme, type CatppuccinPalette } from "./_compile";
+import { compileCatppuccinTheme, type CatppuccinPalette } from "./_helpers/catppuccin";
 
 const frappePalette: CatppuccinPalette = {
   rosewater: "rgb(242, 213, 207)",

@@ -4,7 +4,7 @@ type ThemeModule = {
   default?: Theme;
 };
 
-const themeModules = import.meta.glob<ThemeModule>("../themes/**/*.ts", {
+const themeModules = import.meta.glob<ThemeModule>("../themes/*.ts", {
   eager: true,
 });
 
