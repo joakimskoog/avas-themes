@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a problem with Ava's Themes
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen.
+      placeholder: The selected theme has the wrong colors...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affected-theme
+    attributes:
+      label: Affected theme
+      description: Which theme were you using when this happened?
+      options:
+        - Catppuccin Frappe
+        - Catppuccin Latte
+        - Catppuccin Macchiato
+        - Catppuccin Mocha
+        - Nord
+        - Theme is missing in dropdown
+        - Not theme-specific
+    validations:
+      required: true
+
+  - type: input
+    id: avanza-page
+    attributes:
+      label: Where did it happen?
+      description: Which Avanza page or URL showed the problem?
+      placeholder: https://www.avanza.se/...
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshot
+      description: If possible, add a screenshot or short screen recording.
+
+  - type: textarea
+    id: extra-details
+    attributes:
+      label: Extra details
+      description: Add anything else that might help, like browser, extension version, or console errors.
