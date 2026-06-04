@@ -9,16 +9,14 @@ Ava's Themes is a browser extension that adds beautiful, community-loved themes 
 
 ## 🎨 Available themes
 
-### Catppuccin
-
-#### Latte
+### Catppuccin Latte
 ![Avanza with Catppuccin Latte theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/catppuccin/latte.png)
 
-#### Frappe
+### Catppuccin Frappe
 ![Avanza with Catppuccin Frappe theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/catppuccin/frappe.png)
 
-#### Macchiato
+### Catppuccin Macchiato
 ![Avanza with Catppuccin Macchiato theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/catppuccin/macchiato.png)
 
-#### Mocha
+### Catppuccin Mocha
 ![Avanza with Catppuccin Mocha theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/catppuccin/mocha.png)
