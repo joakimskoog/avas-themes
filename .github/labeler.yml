@@ -1,0 +1,13 @@
+theme:
+  - changed-files:
+      - any-glob-to-any-file:
+          - src/themes/**
+
+extension:
+  - changed-files:
+      - any-glob-to-any-file:
+          - public/**
+          - src/content.ts
+          - src/theme/**
+          - src/theme-picker/**
+          - vite.content.config.ts
