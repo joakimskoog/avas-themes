@@ -22,6 +22,8 @@ body:
         - Catppuccin Latte
         - Catppuccin Macchiato
         - Catppuccin Mocha
+        - Gruvbox Dark
+        - Gruvbox Light
         - Nord
         - Theme is missing in dropdown
         - Not theme-specific
