@@ -1,0 +1,23 @@
+import { compileRosePineTheme, type RosePinePalette } from "./_helpers/rose-pine";
+
+const dawnPalette: RosePinePalette = {
+  base: "rgb(250, 244, 237)",
+  surface: "rgb(255, 250, 243)",
+  overlay: "rgb(242, 233, 222)",
+  muted: "rgb(152, 147, 165)",
+  subtle: "rgb(121, 117, 147)",
+  text: "rgb(87, 82, 121)",
+  love: "rgb(180, 99, 122)",
+  gold: "rgb(234, 157, 52)",
+  rose: "rgb(215, 130, 126)",
+  pine: "rgb(40, 105, 131)",
+  foam: "rgb(86, 148, 159)",
+  iris: "rgb(144, 122, 169)",
+  highlightLow: "rgb(244, 237, 232)",
+  highlightMed: "rgb(223, 218, 217)",
+  highlightHigh: "rgb(206, 202, 205)",
+};
+
+const rosePineDawnTheme = compileRosePineTheme("rose-pine-dawn", "Rose Pine Dawn", dawnPalette);
+
+export default rosePineDawnTheme;
