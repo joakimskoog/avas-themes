@@ -37,6 +37,10 @@ Ava's Themes is a browser extension that adds beautiful, community-loved themes 
 
 ![Avanza with Nord theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/nord.png)
 
+### Osaka Jade
+
+![Avanza with Osaka Jade theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/osaka-jade.png)
+
 ### Rosé Pine
 
 ![Avanza with Rosé Pine theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/rose-pine.png)
