@@ -25,6 +25,14 @@ Ava's Themes is a browser extension that adds beautiful, community-loved themes 
 
 ![Avanza with Catppuccin Mocha theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/catppuccin-mocha.png)
 
+### Gruvbox Dark
+
+![Avanza with Gruvbox Dark theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/gruvbox-dark.png)
+
+### Gruvbox Light
+
+![Avanza with Gruvbox Light theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/gruvbox-light.png)
+
 ### Nord
 
 ![Avanza with Nord theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/nord.png)
