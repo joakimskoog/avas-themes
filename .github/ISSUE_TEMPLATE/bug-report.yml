@@ -25,6 +25,9 @@ body:
         - Gruvbox Dark
         - Gruvbox Light
         - Nord
+        - Tokyo Night
+        - Tokyo Night Light
+        - Tokyo Night Storm
         - Theme is missing in dropdown
         - Not theme-specific
     validations:

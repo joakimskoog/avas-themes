@@ -36,3 +36,15 @@ Ava's Themes is a browser extension that adds beautiful, community-loved themes 
 ### Nord
 
 ![Avanza with Nord theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/nord.png)
+
+### Tokyo Night
+
+![Avanza with Tokyo Night theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/tokyo-night.png)
+
+### Tokyo Night Light
+
+![Avanza with Tokyo Night Light theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/tokyo-night-light.png)
+
+### Tokyo Night Storm
+
+![Avanza with Tokyo Night Storm theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/tokyo-night-storm.png)
