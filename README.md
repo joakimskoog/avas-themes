@@ -72,10 +72,8 @@ Ava's Themes is a browser extension that adds beautiful, community-loved themes 
 
 ![Avanza with Tokyo Night Storm theme](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/examples/tokyo-night-storm.png)
 
-
-
-
 ## Screenshots
+
 Injects all available themes into the regular theme selection page
 
 ![Theme menu](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/theme-menu.png)
@@ -83,4 +81,3 @@ Injects all available themes into the regular theme selection page
 Extension popup
 
 ![Extension popup](https://raw.githubusercontent.com/joakimskoog/avas-themes/refs/heads/main/assets/extension-popup.png)
-
